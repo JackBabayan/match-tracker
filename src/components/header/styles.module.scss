@@ -1,0 +1,12 @@
+.header {
+  margin-bottom: var(--m20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--inboxPaddingSm);
+  .rightSide{
+    display: flex;
+    align-items: center;
+    gap: var(--m12);
+  }
+}

@@ -1,0 +1,26 @@
+.matchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--m12);
+  min-height: 50vh;
+
+
+  .rotateSvg {
+    animation: rotate 3s infinite linear;
+    width: 80px;
+    height: 80px;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+}

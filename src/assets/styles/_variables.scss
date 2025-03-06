@@ -1,19 +1,19 @@
 :root {
-    
+
     --font-inter: 'Inter', sans-serif;
 
     //* Global 
     --Black: #090909;
     --BlackLite: #0B0E12;
     --White: #fff;
-    --Red:#F1274C;
-    --RedDark:#701328;
-    --RedLite:#A01131;
-    --Green:#43AD28;
-    --Gray:#FAFAFA66;
-    --GrayLite:#787878;
-    --Orange:#EB6402;
-    
+    --Red: #F1274C;
+    --RedDark: #701328;
+    --RedLite: #A01131;
+    --Green: #43AD28;
+    --Gray: #FAFAFA66;
+    --GrayLite: #787878;
+    --Orange: #EB6402;
+
     //transition
     --trTime0: 0.2s;
     --trTime1: 0.3s;
@@ -57,15 +57,15 @@
     --lineHeightL: 1.6;
     --lineHeightXL: 1.8;
 
-    --inboxPaddingSm:16px;
-    --inboxPaddingMd:19px;
-    --inboxPaddingLg:36px;
-    --inboxPaddingXl:42px;
+    --inboxPaddingSm: 16px;
+    --inboxPaddingMd: 19px;
+    --inboxPaddingLg: 36px;
+    --inboxPaddingXl: 42px;
 
-    --globalWrapPadding:100px;
-    --globalSectionsPadding:50px;
+    --globalWrapPadding: 100px;
+    --globalSectionsPadding: 50px;
 
-    --maxWidth:1240px;
+    --maxWidth: 1240px;
 }
 
 
@@ -79,5 +79,7 @@
 
         --inboxPaddingSm: 14px;
         --inboxPaddingLg: 16px;
+        --inboxPaddingXl: 16px;
+
     }
 }

@@ -1,0 +1,93 @@
+/* [project]/src/assets/styles/globals.scss.css [client] (css) */
+:root {
+  --font-inter: "Inter", sans-serif;
+  --Black: #090909;
+  --BlackLite: #0b0e12;
+  --White: #fff;
+  --Red: #f1274c;
+  --RedDark: #701328;
+  --RedLite: #a01131;
+  --Green: #43ad28;
+  --Gray: #fafafa66;
+  --GrayLite: #787878;
+  --Orange: #eb6402;
+  --trTime0: .2s;
+  --trTime1: .3s;
+  --trTime2: .5s;
+  --trTime3: .7s;
+  --trTime4: 1s;
+  --p20: 20px;
+  --p18: 18px;
+  --p16: 16px;
+  --p12: 12px;
+  --borderSm: 4px;
+  --borderMd: 6px;
+  --borderLg: 8px;
+  --m6: 6px;
+  --m8: 8px;
+  --m10: 10px;
+  --m12: 12px;
+  --m14: 14px;
+  --m16: 16px;
+  --m17: 17px;
+  --m18: 18px;
+  --m20: 20px;
+  --m22: 22px;
+  --m24: 24px;
+  --m26: 26px;
+  --m28: 28px;
+  --m32: 32px;
+  --m40: 40px;
+  --m60: 60px;
+  --lineHeightXS: 1;
+  --lineHeightS: 1.2;
+  --lineHeightM: 1.4;
+  --lineHeightL: 1.6;
+  --lineHeightXL: 1.8;
+  --inboxPaddingSm: 16px;
+  --inboxPaddingMd: 19px;
+  --inboxPaddingLg: 36px;
+  --inboxPaddingXl: 42px;
+  --globalWrapPadding: 100px;
+  --globalSectionsPadding: 50px;
+  --maxWidth: 1240px;
+}
+
+@media only screen and (width <= 767px) {
+  :root {
+    --p20: 18px;
+    --p18: 16px;
+    --p16: 14px;
+    --p12: 12px;
+    --inboxPaddingSm: 14px;
+    --inboxPaddingLg: 16px;
+    --inboxPaddingXl: 16px;
+  }
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--White);
+  background-color: var(--Black);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: var(--inboxPaddingXl);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=src_assets_styles_globals_scss_73511378.css.map*/

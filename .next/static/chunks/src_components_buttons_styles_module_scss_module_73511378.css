@@ -1,0 +1,53 @@
+/* [project]/src/components/buttons/styles.module.scss.module.css [client] (css) */
+.styles-module-scss-module___VyWPG__button {
+  min-width: 204px;
+  gap: 10px;
+  border-radius: var(--borderSm);
+  padding: var(--m14) var(--m40);
+  background-color: var(--Red);
+  border: 0;
+  cursor: pointer;
+  transition: all var(--trTime1) ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--White);
+  font-family: var(--font-inter);
+  font-size: var(--p18);
+  line-height: var(--lineHeightS);
+}
+
+.styles-module-scss-module___VyWPG__button svg {
+  width: 26px;
+  height: 26px;
+  transition: all var(--trTime1) ease-in-out;
+}
+
+.styles-module-scss-module___VyWPG__button:disabled {
+  cursor: auto;
+  background-color: var(--RedDark);
+  color: var(--GrayLite);
+}
+
+.styles-module-scss-module___VyWPG__button:disabled svg path {
+  fill: var(--GrayLite);
+}
+
+.styles-module-scss-module___VyWPG__button:hover:not(:disabled) {
+  background-color: var(--RedLite);
+}
+
+.styles-module-scss-module___VyWPG__button:hover:not(:disabled) svg {
+  transform: rotate(360deg);
+}
+
+@media only screen and (width <= 767px) {
+  .styles-module-scss-module___VyWPG__button {
+    min-width: 150px;
+    padding: var(--m8) var(--m12);
+  }
+}
+
+/*# sourceMappingURL=src_components_buttons_styles_module_scss_module_73511378.css.map*/

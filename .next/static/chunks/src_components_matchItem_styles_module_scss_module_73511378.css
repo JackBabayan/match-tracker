@@ -1,0 +1,94 @@
+/* [project]/src/components/matchItem/styles.module.scss.module.css [client] (css) */
+.styles-module-scss-module__7GuFMW__matchItemWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--m12);
+  background-color: var(--BlackLite);
+  padding: var(--inboxPaddingSm) var(--inboxPaddingLg);
+  border-radius: var(--borderSm);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name {
+  display: flex;
+  align-items: center;
+  gap: var(--m14);
+  font-weight: 600;
+  color: var(--White);
+  font-family: var(--font-inter);
+  font-size: var(--p16);
+  line-height: var(--lineHeightXS);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name svg {
+  width: 48px;
+  height: 48px;
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--p16);
+  font-weight: 600;
+  color: var(--White);
+  font-family: var(--font-inter);
+  font-size: var(--p20);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score .styles-module-scss-module__7GuFMW__status {
+  text-align: center;
+  min-width: 92px;
+  border-radius: var(--borderSm);
+  padding: var(--m6);
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--p12);
+  line-height: var(--lineHeightXS);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score .styles-module-scss-module__7GuFMW__status.styles-module-scss-module__7GuFMW__finished {
+  background-color: var(--Red);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score .styles-module-scss-module__7GuFMW__status.styles-module-scss-module__7GuFMW__scheduled {
+  background-color: var(--Orange);
+}
+
+.styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score .styles-module-scss-module__7GuFMW__status.styles-module-scss-module__7GuFMW__ongoing {
+  background-color: var(--Green);
+}
+
+@media only screen and (width <= 767px) {
+  .styles-module-scss-module__7GuFMW__matchItemWrapper {
+    flex-wrap: wrap;
+  }
+
+  .styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name {
+    gap: var(--m8);
+    width: calc(50% - var(--m12));
+    line-height: var(--lineHeightM);
+  }
+
+  .styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name:first-child {
+    order: 1;
+  }
+
+  .styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name:last-child {
+    order: 2;
+  }
+
+  .styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__name svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .styles-module-scss-module__7GuFMW__matchItemWrapper .styles-module-scss-module__7GuFMW__score {
+    width: 100%;
+    order: 3;
+  }
+}
+
+/*# sourceMappingURL=src_components_matchItem_styles_module_scss_module_73511378.css.map*/

@@ -1,0 +1,27 @@
+/* [project]/src/components/matchTracker/styles.module.scss.module.css [client] (css) */
+.styles-module-scss-module__skv_Dq__matchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--m12);
+  min-height: 50vh;
+}
+
+.styles-module-scss-module__skv_Dq__matchContainer .styles-module-scss-module__skv_Dq__rotateSvg {
+  animation: 3s linear infinite styles-module-scss-module__skv_Dq__rotate;
+  width: 80px;
+  height: 80px;
+}
+
+@keyframes styles-module-scss-module__skv_Dq__rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/*# sourceMappingURL=src_components_matchTracker_styles_module_scss_module_73511378.css.map*/

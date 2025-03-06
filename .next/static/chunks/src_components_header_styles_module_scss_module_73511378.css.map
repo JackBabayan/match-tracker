@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/header/styles.module.scss.module.css"],"sourcesContent":[".header{margin-bottom:var(--m20);display:flex;align-items:center;justify-content:space-between;gap:var(--inboxPaddingSm)}.header .rightSide{display:flex;align-items:center;gap:var(--m12)}"],"names":[],"mappings":"AAAA;;;;;;;;AAAyH"}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,16 @@
+/* [project]/src/components/header/styles.module.scss.module.css [client] (css) */
+.styles-module-scss-module__ukmR7q__header {
+  margin-bottom: var(--m20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--inboxPaddingSm);
+}
+
+.styles-module-scss-module__ukmR7q__header .styles-module-scss-module__ukmR7q__rightSide {
+  display: flex;
+  align-items: center;
+  gap: var(--m12);
+}
+
+/*# sourceMappingURL=src_components_header_styles_module_scss_module_73511378.css.map*/

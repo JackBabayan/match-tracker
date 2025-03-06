@@ -67,6 +67,7 @@
     .name {
       gap: var(--m8);
       width: calc(50% - var(--m12));
+      line-height: var(--lineHeightM);
       &:first-child{
         order: 1;
       }
